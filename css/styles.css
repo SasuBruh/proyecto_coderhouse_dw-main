@@ -23,20 +23,31 @@ body{
     margin-left: 10px;
 }
 
+
+.nav {
+    width:100%;
+}
+.container {
+    max-height: 100px;
+}
 .enlace-logo{
     text-decoration: none;
     color: rgb(107, 150, 255);
     transition: color 1s;
 }
+
 logo:hover{
     color: whitesmoke;
 }
+.nav {
+    width: 100%;
+}
+
 nav ul li{
     list-style: none;
     display:inline-block;
     margin-left: 10px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 0px;
 }
 
 nav ul li a{
@@ -52,27 +63,34 @@ nav ul li a{
 a:hover{
     color: whitesmoke;
 }
+
 header{
     background-color:rgb(255, 191, 182);
     position: absolute;
     top: 0;
-    width: 100vh;
-    display: grid;
+    width:100%;
+    /* display: grid; */
     justify-content: space-around;
-    grid-area: header;
-    transition: background-color 2s;
+    /* grid-area: header; */
+    /* transition: background-color 2s; */
 }
+
+.main {
+    margin-top: 250px;
+}
+
 img{
     margin: 5px;
     border: solid rgb(255, 191, 182);
     transition: transform 1s;
 }
 
-header:hover{
+/* header:hover{
     background-color: rgb(248, 135, 150);
-}
+} */
+
 nav{
-    grid-area: nav;
+    /* grid-area: nav; */
     font-size: 30px;
     padding: 10px;
     background-color:rgb(255, 191, 182);
@@ -83,31 +101,43 @@ p{
     padding-left: 40px;
     padding-right: 40px;
 }
+
 h1{
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
 h2{
     font-size: 35px;
 }
-main{
+
+/* main{
     grid-area: main;
-}
+} */
+
 button{
     font-size: 20px;
     margin-bottom: 5px;
     background-color:rgb(255, 191, 182);
+    transition: color 1s;
+    margin-top: 10px;
+    padding: 0.20em;
+    /* transform 1.5s, background-color 2s; */
+}
+
+button a {
     text-decoration: none;
-    transition: color 1s, transform 1.5s, background-color 2s;
+    color: inherit;
 }
 
 footer button:hover{
     background-color:rgb(248, 135, 150);
-    transform: scale(1.5);
+    /* transform: scale(1.5); */
 }
-footer{
+
+/* footer{
     grid-area: footer;
-}
+} */
 
 .comentario{
     background-color: rgb(255, 191, 182);
@@ -115,21 +145,27 @@ footer{
 }
 
 .banner{
-    min-height: 100px;
+    /* min-height: 100px; */
     background-image:url(../images/banner-img.jpg);
     
 }
-.grid{
+/* .grid{
     height: 100 vh;
     display: grid;
-    grid-template-columns: 1fr 1fr ;
+    grid-template-columns: 1fr 1fr 1fr ;
     grid-template-rows: 0.5fr 1fr 1fr;
-    grid-template-areas: "header  header"
-                         "main main"
-                         "footer footer";
+    grid-template-areas: "header  header header"
+                         "main main main"
+                         "footer footer footer";
+} */
+@media (min-width: 1200px) {
+    .container{
+        max-width: 100%;
+    }
 }
 
-@media only screen and (max-width: 1024px){
+
+/* @media only screen and (max-width: 1024px){
     .grid{
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-areas: "nav header header "
@@ -137,18 +173,21 @@ footer{
                              "nav footer footer";
     }
     
-}
+} */
 @media only screen and (max-width: 760px){
-    .grid{
+    /* .grid{
         grid-template-columns: 1fr 1fr;
         grid-template-areas: "nav header"
                              "nav main"
                              "nav footer";
-         }
+         } */
     .logo{
             font-family:courgette ;
             font-size:50px;
             margin-left: 20px;
+        }
+        .main {
+            margin-top: 145px;
         }
     nav ul li a{
         flex-direction: column;
