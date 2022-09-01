@@ -1,0 +1,36 @@
+header {
+        background-color:rgb(255, 191, 182);
+        position: absolute;
+        top: 0;
+        width:100%;
+        justify-content: space-around;
+            h1{
+                padding-top: 10px;
+                padding-bottom: 10px;
+                nav{
+                    font-size: 30px;
+                    padding: 10px;
+                    background-color:rgb(255, 191, 182);
+                    ul{
+                        li{
+                            list-style: none;
+                            display:inline-block;
+                            margin-left: 10px;
+                            padding-top: 0px;
+                            a{
+                                text-decoration: none;
+                                color: black;
+                                width: 200px;
+                                height: 200px;
+                                padding: 10px;
+                                font-size: 20 px;
+                                transition: color 1s;
+                                &:hover{
+                                color: whitesmoke;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+         }

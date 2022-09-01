@@ -1,0 +1,16 @@
+main{
+    h2{
+        font-size: 35px;
+    }
+    p{
+        font-size: 30px;  
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    img{
+        margin: 5px;
+        border: solid rgb(255, 191, 182);
+        transition: transform 1s;
+    }
+} 
+
