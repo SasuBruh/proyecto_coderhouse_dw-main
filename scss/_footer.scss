@@ -1,8 +1,8 @@
 footer{
     button{
-        font-size: 20px;
+        font-size: 22px;
         margin-bottom: 5px;
-        background-color:rgb(255, 191, 182);
+        background-color:$color-fondo;
         transition: color 1s;
         margin-top: 10px;
         padding: 0.20em;
@@ -10,7 +10,7 @@ footer{
             text-decoration: none;
             color: inherit;
                 &:hover{
-                background-color:rgb(248, 135, 150);
+                background-color:$color-fondo-hover;
 
             }
         }
