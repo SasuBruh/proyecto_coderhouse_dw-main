@@ -19,19 +19,10 @@ header {
                             margin-left: 10px;
                             padding-top: 0px;
                             a{
-                                text-decoration: none;
-                                color: black;
-                                width: 100px;
-                                height: 100px;
-                                padding: 10px;
-                                font-size: 30 px;
-                                transition: color 1s;
-                                &:hover{
-                                color: whitesmoke;
+                                @include a;
                                 }
                             }
                         }
                     }
                 }
             }
-         }
