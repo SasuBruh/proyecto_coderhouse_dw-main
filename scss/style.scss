@@ -55,13 +55,33 @@ logo:hover{
 }
 
 .banner{
-    background-image:url(../images/banner-img.jpg);
-    
+    background-image:url(../images/banner-img.jpg); 
+}
+
+.img-shadow-1{
+    -webkit-box-shadow: 0 28px 16px -26px black;
+    -moz-box-shadow: 0 28px 16px -26px black;
+    box-shadow: 0 28px 16px -26px black;
+    }
+
+.img-shadow-1:hover{
+    transform:scale(1.1);
+    -webkit-transform:scale(1.1);
+    -moz-transform:scale(1.1);
+    -ms-transform:scale(1.1);
+    -o-transform:scale(1.1);
+
+    -webkit-box-shadow: 0 58px 36px -56px black;
+    -moz-box-shadow: 0 58px 36px -56px black;
+    box-shadow: 0 58px 36px -56px black;
 }
 
 @media (min-width: 1200px) {
     .container{
         max-width: 100%;
+    }
+    .main {
+        margin-top: 160px;
     }
 }
 
@@ -71,14 +91,14 @@ logo:hover{
             font-size:50px;
             margin-left: 20px;
         }
-        .main {
-            margin-top: 145px;
-        }
+ 
     nav ul li a{
         flex-direction: column;
         align-items: center;
         align-content: center;
         text-align: center;
         padding: 0;
+        font-size: 30px;
+        color: black;
     }
 }
