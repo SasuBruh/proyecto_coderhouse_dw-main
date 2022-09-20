@@ -12,7 +12,7 @@ footer{
             color: inherit;
                 &:hover{
                 background-color:$color-fondo-hover;
-
+                box-shadow: 0 0 10px $color-fondo-hover, 0 0 20px $color-fondo-hover ,0 0 20px $color-fondo-hover;
             }
         }
     }

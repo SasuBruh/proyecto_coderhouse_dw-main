@@ -50,7 +50,8 @@ footer button {
     text-decoration: none;
     color: inherit; }
     footer button a:hover {
-      background-color: #f88796; }
+      background-color: #f88796;
+      box-shadow: 0 0 10px #f88796, 0 0 20px #f88796, 0 0 20px #f88796; }
 
 * {
   margin: 0;
@@ -86,7 +87,14 @@ body {
   transition: color 1s; }
 
 logo:hover {
+  font-size: 80px;
   color: white; }
+
+a:hover {
+  background-color: #f88796;
+  color: white;
+  border-color: #f88796;
+  box-shadow: 0 0 10px #f88796, 0 0 20px #f88796, 0 0 20px #f88796; }
 
 .main {
   margin-top: 250px; }
