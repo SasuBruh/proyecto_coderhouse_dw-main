@@ -6,10 +6,11 @@ header {
   width: 100%;
   justify-content: space-around; }
   header h1 {
+    align-self: left;
     padding-top: 10px;
     padding-bottom: 10px; }
     header h1 nav {
-      font-size: 40px;
+      font-size: 20px;
       padding: 10px;
       background-color: #ffbfb6; }
       header h1 nav ul li {
@@ -17,13 +18,13 @@ header {
         display: inline-block;
         margin-left: 10px;
         padding-top: 0px; }
-        header h1 nav ul li a {
-          text-decoration: none;
-          color: white;
-          width: 100px;
-          height: 100px;
-          padding: 15px;
-          font-size: 35 px; }
+  header nav ul li a {
+    text-decoration: none;
+    color: black;
+    width: 100px;
+    height: 100px;
+    padding: 15px;
+    font-size: 20px; }
 
 main h2 {
   font-weight: bolder;
@@ -111,9 +112,9 @@ a:hover {
   background-image: url(../images/banner-img.jpg); }
 
 .img-galeria {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly; }
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly; }
 
 .img-shadow-1 {
   -webkit-box-shadow: 0 28px 16px -26px black;
@@ -122,10 +123,10 @@ a:hover {
 
 .img-shadow-1:hover {
   transform: scale(1);
-  -webkit-transform: scale(1);
-  -moz-transform: scale(1);
-  -ms-transform: scale(1);
-  -o-transform: scale(1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
   -webkit-box-shadow: 0 58px 36px -56px black;
   -moz-box-shadow: 0 58px 36px -56px black;
   box-shadow: 0 58px 36px -56px black; }
