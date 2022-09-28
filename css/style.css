@@ -11,6 +11,7 @@ header {
     header h1 nav {
       font-size: 40px;
       padding: 10px;
+      color: white;
       background-color: #ffbfb6; }
       header h1 nav ul li {
         list-style: none;
@@ -19,7 +20,7 @@ header {
         padding-top: 0px; }
         header h1 nav ul li a {
           text-decoration: none;
-          color: black;
+          color: white;
           width: 100px;
           height: 100px;
           padding: 15px;
@@ -110,17 +111,22 @@ a:hover {
 .banner {
   background-image: url(../images/banner-img.jpg); }
 
+.img-galeria {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly; }
+
 .img-shadow-1 {
   -webkit-box-shadow: 0 28px 16px -26px black;
   -moz-box-shadow: 0 28px 16px -26px black;
   box-shadow: 0 28px 16px -26px black; }
 
 .img-shadow-1:hover {
-  transform: scale(1.1);
-  -webkit-transform: scale(1.1);
-  -moz-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  -o-transform: scale(1.1);
+  transform: scale(1);
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
   -webkit-box-shadow: 0 58px 36px -56px black;
   -moz-box-shadow: 0 58px 36px -56px black;
   box-shadow: 0 58px 36px -56px black; }
