@@ -39,7 +39,6 @@ body{
     color: map-get($color-logo , "color");
     transition: color 1s;
 }
-
 logo:hover{
     font-size: 80px;
     color: map-get($color-logo , "color-hover");
