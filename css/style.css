@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Courgette&family=Roboto:wght@100;300;400&display=swap");
 header {
-  background-color: #ffc3bb;
+  background-color: #222222;
   top: 0;
   width: 100%; }
   header h1 {
@@ -8,7 +8,7 @@ header {
     header h1 nav {
       font-size: 40px;
       padding: 10px;
-      background-color: #ffc3bb; }
+      background-color: #222222; }
       header h1 nav ul li {
         list-style: none;
         display: inline-block;
@@ -27,7 +27,6 @@ main h2 {
   font-size: 40px; }
 
 main p {
-  padding-top: 0;
   font-size: 30px;
   padding-left: 40px;
   padding-right: 40px; }
@@ -37,9 +36,10 @@ main img {
   transition: transform 1s; }
 
 footer button {
+  color: whitesmoke;
   font-size: 22px;
   margin-bottom: 5px;
-  background-color: #ffc3bb;
+  background-color: #222222;
   transition: color 1s;
   margin-top: 10px;
   padding: 0.20em;
@@ -48,8 +48,8 @@ footer button {
     text-decoration: none;
     color: inherit; }
     footer button a:hover {
-      background-color: #fd91a0;
-      box-shadow: 0 0 10px #fd91a0, 0 0 20px #fd91a0, 0 0 20px #fd91a0; }
+      background-color: #ff8e56;
+      box-shadow: 0 0 10px #ff8e56, 0 0 20px #ff8e56, 0 0 20px #ff8e56; }
 
 * {
   margin: 0;
@@ -80,7 +80,7 @@ body {
 
 .enlace-logo {
   text-decoration: none;
-  color: #5775fd;
+  color: #fbb023;
   transition: color 1s; }
 
 logo:hover {
@@ -88,20 +88,21 @@ logo:hover {
   color: white; }
 
 a:hover {
-  background-color: #fd91a0;
+  background-color: #ff8e56;
   color: white;
-  border-color: #fd91a0;
-  box-shadow: 0 0 10px #fd91a0, 0 0 20px #fd91a0, 0 0 20px #fd91a0;
+  border-color: #ff8e56;
+  box-shadow: 0 0 10px #ff8e56, 0 0 20px #ff8e56, 0 0 20px #ff8e56;
   border-radius: 1rem; }
 
 .nav-link {
-  border-radius: 1rem; }
+  border-radius: 1rem;
+  color: whitesmoke !important; }
 
 .main {
   margin-top: 250px; }
 
 .comentario {
-  background-color: #ffc3bb;
+  background-color: #222222;
   font-size: 25px; }
 
 .banner {
