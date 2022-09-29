@@ -18,8 +18,8 @@ body{
     background-image:url(../images/background-img.jpg);
     text-align: center;
     align-items: center;
-    align-content: center;
     min-height: 100%;
+
 }
 .logo{
     font-family:courgette ;
@@ -32,7 +32,7 @@ body{
     width:100%;
 }
 .container {
-    max-height: 100px;
+    max-height: 100%;
 }
 .enlace-logo{
     text-decoration: none;
@@ -67,7 +67,6 @@ a:hover{
 
 .banner{
     background-image:url(../images/banner-img.jpg); 
-    margin: 1px;
 }
 .img-galeria {
     display: flex;
